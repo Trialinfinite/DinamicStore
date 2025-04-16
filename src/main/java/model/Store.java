@@ -15,7 +15,7 @@ public class Store {
         this.stock = stock;
     }
 
-    // Getters and Setters
+    // Getters and Setters for each field concerned
     public int getStore_id() {
         return store_id;
     }
