@@ -1,3 +1,17 @@
+/*
+ * Stock Class:
+ * Represents a stock item with an ID, name, count, and price.
+ * Provides constructors to initialize the stock and methods to access and modify its attributes.
+ *
+ * Attributes:
+ * - stock_id (int): Unique identifier for the stock item.
+ * - stock_name (String): Name of the stock item.
+ * - stock_count (int): Quantity of the stock item available.
+ * - stock_price (double): Price per unit of the stock item.
+ * 
+ * @author 
+ * @version 1.0
+ */
 package model;
 
 public class Stock {
