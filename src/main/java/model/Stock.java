@@ -1,4 +1,4 @@
-package domain;
+package model;
 
 public class Stock {
     private int stock_id;
@@ -6,16 +6,18 @@ public class Stock {
     private int stock_count;
     private double stock_price;
 
+    // Constructor methods
     public Stock() {
     }
 
-    public Stock(int stock_id, String stock_name, int stork_count, double stock_price) {
+    public Stock(int stock_id, String stock_name, int stock_count, double stock_price) {
         this.stock_id = stock_id;
         this.stock_name = stock_name;
         this.stock_count = stock_count;
         this.stock_price = stock_price;
     }
 
+    // Getters and Setters
     public int getStock_id() {
         return stock_id;
     }

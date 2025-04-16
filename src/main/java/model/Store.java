@@ -1,10 +1,11 @@
-package domain;
+package model;
 
 public class Store {
     private int store_id;
     private String store_name;
     private Stock stock;
 
+    // Constructor methods
     public Store() {
     }
 
@@ -14,6 +15,7 @@ public class Store {
         this.stock = stock;
     }
 
+    // Getters and Setters
     public int getStore_id() {
         return store_id;
     }
@@ -34,7 +36,7 @@ public class Store {
         return stock;
     }
 
-    public void setStock(stock stock) {
+    public void setStock(Stock stock) {
         this.stock = stock;
     }
 }
