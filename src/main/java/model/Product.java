@@ -2,7 +2,7 @@ package model;
 
 import util.NegativePriceException;
 
-public class Product {
+public class Product implements StoreItem {
     private String name;
     private double price;
     private int quantity;
